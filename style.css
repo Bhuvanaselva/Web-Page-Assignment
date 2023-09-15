@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("Image/pic3.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#033747,#012733);
+   
+}
+nav img{
+    width: 75px ;
+}
+
+nav .logo p{
+font-size: 30px;
+text-align: center;
+font-weight: bold;
+float: left;
+ color: white;
+ text-transform: uppercase;
+ letter-spacing: 1.5px;
+ cursor: pointer;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+ 
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+ nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+   color: white;
+    text-decoration: none;
+ }
+ nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease 0s;
+ }
+ .content-items{
+    width: 90%;
+    color: #033747; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-style: bold;
+  }
+  .content-items h1{
+    font-size: 62px;
+  }
+  .content-items p{
+     margin: 10px 0 40px;
+     font-size: 20px;
+     color: brown;
+  }
+
+
+
+/*-------------about us page--------*/
+
+
+.about-us{
+    width: 80%;
+    margin: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.about-us h1{
+padding-top: 80px;
+text-align: center;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 1.5px;
+color: navy;
+
+
+}
+.about-us p{
+    padding-top: 15px 0 25px ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    letter-spacing: 1.5px;
+    color: #033747;
+    }
+    
+    .about-us h2{
+        padding-top: 20px;
+        text-align:left;
+        font-size: 25px;
+        font-family: Arial;
+        letter-spacing: 1.5px;
+        color: navy;
+        
+        }
+        .about-us h2 p{
+            padding-top: 20px;
+            font-size: 20px;
+            font-family: Arial;
+            font-style: bold;
+            letter-spacing: 1.5px;
+            color: #033747;
+            }
+            .about-us h3{
+                padding-top: 20px;
+                text-align:left;
+                font-size: 25px;
+                font-family: Arial;
+                font-style: bold;
+                letter-spacing: 1.5px;
+                color: navy;
+                
+                }
+                .about-us h3 p{
+                    padding-top: 20px;
+                    font-size: 20px;
+                    font-family: Arial;
+                    font-style: bold;
+                    letter-spacing: 1.5px;
+                    color: #033747;
+                    }
+
+                    /*-------------contact us page--------*/
+
+
+.contact-us{
+    width: 80%;
+    margin: auto;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.contact-us h1{
+padding-top: 80px;
+text-align: left;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+color: navy;
+
+
+}
+.contact-us p{
+    padding-top: 15px 0 25px ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #033747;
+    }
+      /*-------------gall-us page--------*/
+
+    .container{
+       padding: 150px;
+       max-width: 1200px;
+       margin: auto;
+       background: white;
+       overflow: auto;
+    }
+    
+.gall{
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width:390px;
+}
+.gall img{
+    width: 100%;
+    height:auto;
+}
+.desc{
+    padding:15px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial;
+    font-style: bold;
+    color: navy;
+}
+/* Make the page responsive */
+<style>
+.left, .right {
+  float: left;
+  width: 20%; 
+}
+
+.main {
+  float: left;
+  width: 60%; 
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; 
+  }
+}
+nav {
+    text-align: center;
+}
+
+</style>
